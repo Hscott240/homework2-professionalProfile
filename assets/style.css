@@ -1,0 +1,66 @@
+body {
+    margin: 0;  
+    background-color: rgb(143, 140, 140);
+    font-family:sans-serif;
+}
+
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: flex-end;
+   
+}
+
+nav {
+    background-color: #55d6aa;
+ 
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+    border-bottom: solid #222; 
+    
+}
+
+h2{
+    font-size: 50px;
+}
+
+.main-container {
+    width: 80%;
+    height: 500px ;
+    border: 10px solid turquoise;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+
+}
+
+.secondary-container {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-flex;
+    
+
+}
+
+.card {
+    border: 10px solid turquoise;
+    height: 250px;
+    width: 20%;
+}
